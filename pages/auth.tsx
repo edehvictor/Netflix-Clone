@@ -6,7 +6,7 @@ import { signIn } from "next-auth/react";
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 
-const auth = () => {
+const Auth = () => {
 
   const [email, setEmail] = useState("");
   const [name, setName] = useState("");
@@ -134,4 +134,4 @@ const auth = () => {
   );
 };
 
-export default auth;
+export default Auth;
