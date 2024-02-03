@@ -1,4 +1,3 @@
-import React from "react";
 import Input from "@/Components/Input";
 import axios from "axios";
 import { useCallback, useState } from "react";
